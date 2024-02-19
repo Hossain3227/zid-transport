@@ -127,6 +127,14 @@ function grandTotalCostShow(discountPer = 0){
 
 document.getElementById('applyCoupon').addEventListener('click',  couponValidate);
 
+// document.getElementById('applyCoupon').addEventListener('click',function(){
+//    if(clickedSeats.length === 0){
+//     alert("nice try but select at least four seats first");
+//     return;
+//    }
+//    couponValidate();
+// });
+
 function  couponValidate(){
     const validCoupon = {'NEW15':15,
                          'Couple 20':20}; 
