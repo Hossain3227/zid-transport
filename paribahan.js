@@ -172,3 +172,10 @@ document.getElementById('continuebtn').addEventListener('click',function(){
     document.getElementById('my_modal_3').close();
     window.location.href = 'index.html';
 })
+
+
+document.getElementById('seeofferBtn').addEventListener('click',function(){
+    document.getElementById('viewPage').scrollIntoView({
+        behavior: 'smooth'
+    });
+});

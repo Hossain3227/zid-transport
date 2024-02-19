@@ -72,17 +72,17 @@
                     </div>
                 </div>
                 <div class="flex bg-white p-8 border-solid border-b-4 border-green-500 rounded-3xl">
-                    <img src="images/people.png" alt="">
+                    <img src="images/ticket-cupon.png" alt="">
                     <div class="ml-2 text-black">
-                        <h1 class="text-3xl font-bold">500K+</h1>
-                        <p>Registered users</p>
+                        <h1 class="text-3xl font-bold">1.7 lacks</h1>
+                        <p>Tickets sold</p>
                     </div>
                 </div>
                 <div class="flex bg-white p-8 border-solid border-b-4 border-green-500 rounded-3xl">
-                    <img src="images/people.png" alt="">
+                    <img src="images/stoppage.png" alt="">
                     <div class="ml-2 text-black">
-                        <h1 class="text-3xl font-bold">500K+</h1>
-                        <p>Registered users</p>
+                        <h1 class="text-3xl font-bold">80K+</h1>
+                        <p>Rental partners</p>
                     </div>
                 </div>
               </div>
@@ -102,7 +102,7 @@
        <section class="mt-20 mb-10">
          
         <div class="text-center mb-4">
-          <h1 class="text-3xl font-semibold">Best Offers For You</h1>
+          <h1 class="text-4xl font-bold">Best Offers For You</h1>
         </div>
 
         <div class="flex justify-around items-center">
@@ -114,7 +114,7 @@
             </div>
             <img src="images/cupon-devider.png" alt="">
             <div class="w-[207px] flex flex-col items-center justify-center">
-              <h1 id="new-coupon">NEW15</h1>
+              <h1 id="new-coupon" class="text-2xl font-bold">NEW15</h1>
               <p>Coupon Code</p>
             </div>
           </div>
@@ -128,13 +128,13 @@
             </div>
             <img src="images/cupon-devider.png" alt="">
             <div class="w-[207px] flex flex-col items-center justify-center">
-              <h1 id="couple-coupon">Couple 20</h1>
+              <h1 id="couple-coupon" class="text-2xl font-bold">Couple 20</h1>
               <p>Coupon Code</p>
             </div>
           </div>
          </div>
          <div class="mt-4 text-center">
-          <button class="btn  bg-[#1dd1001a] border-2 border-[#1dd10066] text-[#1dd100]">
+          <button id="seeofferBtn" class="btn  bg-[#1dd1001a] border-2 border-[#1dd10066] text-[#1dd100]">
             
             See All Offers</button>
          </div>
@@ -144,16 +144,16 @@
 
        <!-- available seats and route -->
        <section class="my-10">
-        <div class="whole">
+        <div class="whole bg-[#f7f8f8] p-12 border-solid border-t-4 border-green-500 rounded-3xl">
 
           <div class="text-center mb-6">
-            <h1 class="text-2xl">Z-Paribahan</h1>
+            <h1 class="text-4xl font-semibold mb-4">Z-Paribahan</h1>
             <p>Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
           </div>
 
           <!-- bus logo and route -->
-          <div class="flex mb-6">
-            <div class="w-9/12">
+          <div class="flex mb-6 bg-white">
+            <div class="w-9/12 p-6">
               <div class="flex justify-between mb-6">
                <div class="flex">
                  <img src="images/bus-logo.png" alt="">
@@ -167,19 +167,21 @@
                  <img src="images/seat-green.png" alt="">
                  <span id="seatVacant" class="text-2xl">16</span> seats left</button>
               </div> 
-   
-              <div class="flex justify-between items-center border-b  border-dashed  border-b-[#03071233] p-8">
-               <h1 class="">route</h1>
-               <h1 class="text-2xl font-bold">Dhaka - Sylhet</h1>
-              </div>
-              <div class="flex justify-between items-center border-dashed border-b border-b-[#03071233] mb-4 p-8">
-               <h1 class="">route</h1>
-               <h1 class="text-2xl font-bold">Dhaka - Sylhet</h1>
-              </div>
-              <div class="space-x-4">
-               <button class="btn w-[232px] h-[56px]">Boarding Point - Laxmipur</button>
-               <button class="btn w-[232px] h-[56px]">Dropping Point - Bogura</button>
-               <button class="btn w-[232px] h-[56px]">Est. Time - 11 Hour</button>
+              
+              <div class="bg-[#f7f8f8] p-6">
+                <div class="flex justify-between items-center border-b  border-dashed  border-b-[#03071233] p-8">
+                  <h1 class="text-[18px] font-semibold text-[#03071299]">Route</h1>
+                  <h1 class="text-2xl font-bold">Dhaka - Sylhet</h1>
+                 </div>
+                 <div class="flex justify-between items-center border-dashed border-b border-b-[#03071233] mb-4 p-8">
+                  <h1 class="text-[18px] font-semibold text-[#03071299]">Departure Time</h1>
+                  <h1 class="text-2xl font-bold">9:00 PM</h1>
+                 </div>
+                 <div class="space-x-4">
+                  <button class="btn w-[232px] h-[56px]">Boarding Point - Laxmipur</button>
+                  <button class="btn w-[232px] h-[56px]">Dropping Point - Bogura</button>
+                  <button class="btn w-[232px] h-[56px]">Est. Time - 11 Hour</button>
+                 </div>
               </div>
              </div>
 
@@ -194,7 +196,7 @@
 
 
           <!-- bus seats -->
-          <div class="flex">
+          <div id="viewPage" class="flex">
             <!-- up here is whole div -->
             
             <div class="w-7/12 pr-4">
